@@ -15,7 +15,7 @@ function Header() {
           <div className='a'>
             <NavLink 
                     className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-                    to="/today"> Get Started</NavLink>
+                    to="/budget-form"> Get Started</NavLink>
             {/* <NavLink 
                     className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
                     to="/">Blank</NavLink> */}

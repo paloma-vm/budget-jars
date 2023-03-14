@@ -1,0 +1,14 @@
+/* .BudgetForm {
+
+} */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: aqua;
+    width: 20%;
+    display: flex;
+    margin: auto;
+}

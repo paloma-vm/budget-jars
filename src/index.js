@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import BudgetForm from './components/BudgetForm/BudgetForm';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -14,6 +15,8 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         {/* <Route path="about" element={<About />} /> */}
+        <Route path="/budget-form" element={<BudgetForm />} />
+
       </Route>
     </Routes>
   </Router>
