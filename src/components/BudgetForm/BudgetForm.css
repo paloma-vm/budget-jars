@@ -10,5 +10,11 @@ input {
     background-color: aqua;
     width: 20%;
     display: flex;
-    margin: auto;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
